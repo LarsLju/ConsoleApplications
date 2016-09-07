@@ -59,6 +59,8 @@ namespace ConsoleApplication1
                 ArrayAfDyr[5] = new Kat("Guitarkatten");
 
                 //Løb arrayet igennem og se, hvad der er
+
+                // Flere ændringer
                 foreach (Dyr mitDyr in ArrayAfDyr)
                 {
                     Console.WriteLine("Mit navn er " + mitDyr.Navn + ". Jeg siger " + mitDyr.Lyd());
