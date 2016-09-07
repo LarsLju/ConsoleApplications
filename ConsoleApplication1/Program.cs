@@ -60,7 +60,7 @@ namespace ConsoleApplication1
 
                 //Løb arrayet igennem og se, hvad der er
 
-                // Flere ændringer
+                // Flere ændringer i linje 63
                 foreach (Dyr mitDyr in ArrayAfDyr)
                 {
                     Console.WriteLine("Mit navn er " + mitDyr.Navn + ". Jeg siger " + mitDyr.Lyd());
